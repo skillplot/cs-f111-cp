@@ -122,7 +122,6 @@ Remove using
  `rm -r ECE`
 
 
-`tail -7 f4.txt`
 
 
 
