@@ -24,8 +24,3 @@
     git push
     git status
     ```
-
-
-## Lab Sessions
-
-* Lab-1

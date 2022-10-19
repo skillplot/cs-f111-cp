@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-CS G518 IoT: Design & Development
+CS F111 C Programming

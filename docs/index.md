@@ -1,5 +1,3 @@
 ---
-title: Introduction
-description: Introduction.
+layout: home
 ---
-

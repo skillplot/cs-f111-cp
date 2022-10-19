@@ -1,6 +1,6 @@
-title: CS G518 IoT Design and Development
+title: C Programming
 description: >- # this means to ignore newlines until "baseurl:"
-  CS G518 IoT Design and Development.
+  C Programming.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://www.skillplot.org" # the base hostname & protocol for your site, e.g. http://example.com
 # email: skillplot@gmail.com
@@ -21,7 +21,7 @@ minima:
   # generate social links in footer
   social_links:
     twitter: theskillplot
-    github: cs-g518-iot
+    github: cs-f111-cp
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
