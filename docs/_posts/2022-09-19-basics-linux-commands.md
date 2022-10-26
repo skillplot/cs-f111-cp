@@ -153,3 +153,46 @@ Linux CLI (Command Line Interface) is robust and powerful interface to interact 
 * `sudo`
 * `ln`
 * `alias`
+* `ifconfig` - This command will give the network configuration of the system.
+
+
+## Pattern matching using 'grep' command
+
+This command is used for searching any file for a particular pattern or a word.
+
+```bash
+man grep
+-i, --ignore-case
+       Ignore case distinctions, so that characters that differ only in case match each other.
+-v, --invert-match
+      Invert the sense of matching, to select non-matching lines.
+-c, --count
+     Suppress normal output; instead print a count of matching lines for  each  input  file.   With  the  -v,
+     --invert-match option (see below), count non-matching lines.
+-o, --only-matching
+    Print only the matched (non-empty) parts of a matching line, with each such part on a separate output line.
+```
+
+## Chaining commands using pipe `|`
+
+The Pipe is a command in Linux that lets you use two or more commands such that the output of one command serves as input to the next. In short, the output of each is processed directly as input to the next one like a pipeline. The symbol `|` denotes a pipe.
+
+```bash
+## chaining commands using pip `|`
+ls -ltr | grep data/*.txt
+ls -l | grep *.md
+```
+
+## Redirection operators `<, <<` and `> && >>`
+
+* default input (standard input) is from keyboard
+* default output (standard output) is to the terminal
+* default streams can be changed by using input/output redirection so that the input is taken from a file, and the output goes to a file, for instance.
+* output redirection - The output from a command normally intended for standard output can be easily diverted to a file instead. This capability is known as output redirection.
+    * If the notation `>` f1 is appended to any command that normally writes its output to standard output, the output of that command will be written to file f1 instead of your terminal.
+* The input of a command be redirected from a file
+* input redirection - The greater-than character `>` is used for output redirection, the less-than character < is used to redirect the input of a command. This is input redirection.
+
+```bash
+who -u > data/userdtls-$(date -d now +'%d%m%y_%H%M%S').txt
+```

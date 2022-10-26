@@ -125,8 +125,18 @@ alias l="ls -lrt"
 alias home="cd ${HOME}"
 ```
 
+## filesystem
 
-### References-
+You notice that a long string starting with the / character is printed, with words separated by the / character again. The starting / is called the root directory under which all other directories and sub-directories reside.
+1. What is the parent directory of your home directory?
+
+
+* **home directory is** denoted by the `~` (tilde) symbol
+* **current directory** is denoted by the  `.` (period)
+* while the **parent directory** is denoted by the `..` (two periods).
+
+
+### References
 
 * [Intro-Linux](https://linux.die.net/Intro-Linux/index.html)
 * [Linux Commands Handbook](https://www.freecodecamp.org/news/the-linux-commands-handbook)
