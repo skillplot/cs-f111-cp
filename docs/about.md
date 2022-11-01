@@ -4,4 +4,10 @@ title: About
 permalink: /about/
 ---
 
-CS F111 C Programming
+
+## Pre-requisite
+
+* [Linux Basics](https://github.com/skillplot/linux-basics.git)
+
+
+## C Programming Fundamentals

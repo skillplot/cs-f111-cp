@@ -8,18 +8,27 @@ comments: true
 ---
 
 
-## Basics
+## 1. Markdown
 
 * Markdown basics
     * Stackedit
+
+## 2. Git
+
 * Git, Gitlab and Github
+
+
+## 3. Linux Basics
+
 * Linux Fundamentals
 * Linux Installation
 * Environment Variables
-* Shell Scripting
+* Basic Shell Scripting
 
 
-## System Setup
+## Misc (optional)
+
+### System Setup
 
 * GUI configurations
 * Base directories and repo setup
@@ -27,10 +36,19 @@ comments: true
 * Setup and configure python environment
 
 
-## Tools Setup
+### Tools Setup - Text editors
+> with plugins
 
-* Text editors
-    * Sublimetext Editor
-    * vscode Editor
-    * Editorconfig
-    * vim Editor
+* Sublimetext Editor
+* vscode Editor
+* vim Editor
+* Editorconfig (optional)
+
+### Tools Setup - LaTex editors
+
+* Overleaf
+* TeXworks
+* Texmaker
+* Texdoctk
+* VScode Editor - LaTex plugins
+
