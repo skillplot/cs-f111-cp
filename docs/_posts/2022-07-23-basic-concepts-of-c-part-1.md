@@ -54,11 +54,8 @@ int main() {
 ## Header Files
 
 * stdio.h
-* math.h
-    * library for evaluating various mathematical expressions.
 
 ```c
-#include <math.h>
 #include <stdio.h>
 ```
 
