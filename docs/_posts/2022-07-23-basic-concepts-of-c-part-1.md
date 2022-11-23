@@ -79,7 +79,7 @@ int main() {
         ```
         * This indicates that the value you are scanning is an integer `%d` and you want to store that value in num1 by specifying the address of the variable `num`.
         * `&num` to denote the address of the variable `num` in the main memory.
-* `Sizeof`
+
 
 ## Compilation and Execution
 
@@ -119,14 +119,14 @@ gcc 0001_namaste.c -o build/0001_namaste.out
 
 |Escape Sequence | Description |
 |:---|:---|
-| \t | Inserts a tab in the text at this point |
-| \b | Inserts a backspace in the text at this point |
-| \n | Inserts a newline in the text at this point |
-| \r | Inserts a carriage return in the text at this point |
-| \f | Inserts a form feed in the text at this point |
-| \' | Inserts a single quote character in the text at this point |
-| \" | Inserts a double quote character in the text at this point |
-| \  | Inserts a backslash character in the text at this point |
+| `\t` | Inserts a tab in the text at this point |
+| `\b` | Inserts a backspace in the text at this point |
+| `\n` | Inserts a newline in the text at this point |
+| `\r` | Inserts a carriage return in the text at this point |
+| `\f` | Inserts a form feed in the text at this point |
+| `\'` | Inserts a single quote character in the text at this point |
+| `\"` | Inserts a double quote character in the text at this point |
+| `\ ` | Inserts a backslash character in the text at this point |
 
 
 ## Data Types
