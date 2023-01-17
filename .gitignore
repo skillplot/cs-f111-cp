@@ -194,6 +194,8 @@
 
 ## disallow C extensions
 *.so
+*.o
+*.out
 
 ## override and allow
 !docs/**/*.png

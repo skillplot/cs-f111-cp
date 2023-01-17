@@ -13,6 +13,7 @@ int main() {
   scanf("%f", &t);
   d = u*t + (a * pow(t,2)) / 2;
 
+  printf("\nu:%f, a:%f, t:%f\n", u,a,t);
   printf("Distance is (d): %f \n", d);
   return 0;
 }

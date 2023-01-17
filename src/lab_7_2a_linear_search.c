@@ -2,6 +2,7 @@
 
 int linearSearch(int array[],int search)
 {
+  int len = sizeof(array) / sizeof(array[0]);
   int c;
   for (c = 0; c < 10; c++)
   {
